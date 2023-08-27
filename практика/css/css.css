@@ -63,6 +63,15 @@ h33{
   width: 100%;
     
 }
+h35{
+    color: #ACAAC0;
+    font:normal 16px Segoe_UI;
+  left: 50%;
+  margin: 0;
+  top: 120%;
+  width: 100%;
+    
+}
 h4{
     font:normal 18px Segoe_UI;
   left: 50%;
@@ -523,9 +532,16 @@ margin: 50px auto;
 .indent1{
   margin-top: 50px; /*делаем отступ сверху*/
 }
+.indent11{
+  margin-top: 20px; /*делаем отступ сверху*/
+}
+.indent111{
+  margin-top: -300px; /*делаем отступ сверху*/
+}
 .indent2{
     padding-left: 320px;
-  text-align: right; 
+  text-align: right;
+    
 }
 .indent3{
   margin: 30px; 
@@ -758,20 +774,22 @@ TD.leftcol3 {
   border-radius: 5px;
 }
 .rectangle113 {
+    position: absolute;
     margin-top: 20px;  
   width: 555px;
   height: 390px;
     background: #F4F4F4;
   border-radius: 6px;
 }
-.rectangle114 {
-    margin-top: 20px;  
+.rectangle114 {  
+    margin-top: 5px;
   width: 511px;
   height: 50px;
     border: 1px solid #ACAAC0;
   border-radius: 7px;
 }
 .rectangle115 { 
+    margin-top: 5px;
     color: #ACAAC0;
    vertical-align: middle;
     text-align: center;
@@ -841,7 +859,7 @@ TD.leftcol3 {
    grid-template-rows: 1fr 1fr 1fr;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    
-   gap: 50px;
+   gap: 88px;
    height: 100%;
    
 }
@@ -850,15 +868,15 @@ TD.leftcol3 {
    grid-row-start: 1;
    grid-column-start: 1;
 
-   grid-row-end: 2;
-   grid-column-end: 4;
+   grid-row-end: 1;
+   grid-column-end: 3;
    
 }
 #b1 {
    grid-row-start: 1;
-   grid-column-start: 5;
+   grid-column-start: 4;
 
-   grid-row-end: 2;
+   grid-row-end: 1;
    grid-column-end: 5;
    
 }
@@ -887,3 +905,14 @@ TD.leftcol3 {
 .dropdown2 a:hover {background-color: #140E41;}
 
 .show {display: block;}
+
+button{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 3px; 
+  width: 511px;
+  height: 50px;
+    border: 1px solid #ACAAC0;
+    background: #140E41;
+  border-radius: 7px;
+}
