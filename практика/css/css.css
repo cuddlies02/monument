@@ -713,6 +713,7 @@ margin-top:50px; /*делаем отступ сверху*/
 
 .show {display: block;}
 
+
 .rectangle111 {
   margin: 20px;
     padding-left: 0px; /*убираем отступы*/ 
@@ -776,6 +777,7 @@ TD.leftcol3 {
     text-align: center;
   width: 246px;
   height: 42px;
+    
   border-radius: 7px;
 }
 .rectangle115:hover {
@@ -860,3 +862,28 @@ TD.leftcol3 {
    grid-column-end: 5;
    
 }
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+    border: 1px solid #ACAAC0;
+    border-radius: 7px;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #F4F4F4;
+  min-width: 200px;
+  overflow: auto;
+  border: 1px solid #ACAAC0;
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;}
+.dropdown2 a:hover {background-color: #140E41;}
+
+.show {display: block;}
