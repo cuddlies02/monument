@@ -72,6 +72,15 @@ h35{
   width: 100%;
     
 }
+h36{
+    color: #FFFFFF;
+    font:normal 16px Segoe_UI;
+  left: 50%;
+  margin: 0;
+  top: 120%;
+  width: 100%;
+    
+}
 h4{
     font:normal 18px Segoe_UI;
   left: 50%;
@@ -554,6 +563,10 @@ margin: 50px auto;
     margin-top: -240px;
     
 }
+.indent55{
+    margin-top: -180px;
+    
+}
 .tabel {
    display: grid; 
 margin-top:10px; /*делаем отступ сверху*/
@@ -914,5 +927,27 @@ button{
   height: 50px;
     border: 1px solid #ACAAC0;
     background: #140E41;
+  border-radius: 7px;
+}
+.rectanglered2 {
+    margin-top:450px; /*делаем отступ сверху*/
+  width: 555px;
+  height: 97px;
+    background: #C83936;
+     padding: 0px;
+  border-radius: 7px;
+}
+.indent14{
+  margin: 0px;
+  padding-left: 10px; /*убираем отступы*/ 
+  margin-top: 10px; /*делаем отступ сверху*/
+}
+button1{
+    position: absolute;
+    color: #FFFFFF;
+    text-align: center;
+  width: 235px;
+  height: 49px;
+    border: 1px solid #FFFFFF;
   border-radius: 7px;
 }
