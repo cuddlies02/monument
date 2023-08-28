@@ -90,6 +90,7 @@ h4{
     
 }
 h6{
+    color: #FFFFFF;
     font:normal 18px Segoe_UI;
   left: 50%;
   margin: 0;
@@ -215,7 +216,6 @@ li > ul {
     /*Делаем скрытую часть видимой*/
     li:hover > ul {
         display:block; 
-        margin-top: 10px;
         width:250px;  /*Задаем ширину выпадающего меню*/      
     }
    li:hover > ul > li {
@@ -558,6 +558,9 @@ margin: 50px auto;
 }
 .indent1{
   margin-top: 50px; /*делаем отступ сверху*/
+}
+.indent112{
+  margin-top: 90px; /*делаем отступ сверху*/
 }
 .indent11{
   margin-top: 20px; /*делаем отступ сверху*/
@@ -949,8 +952,9 @@ TD.leftcol3 {
 
 button2{
     color: #FFFFFF;
+    position: absolute;
     text-align: center;
-    margin-top: 3px; 
+    margin-top: 10px; 
   width: 511px;
   height: 50px;
     border: 1px solid #ACAAC0;
@@ -991,5 +995,56 @@ button3{
   border-radius: 7px;
 }
 button3:hover{
+    background: #FFFFFF;
+}
+.angry1-grid {
+   display: grid; 
+
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+   gap: 0px;
+   height: 100%;
+   
+}
+  
+#item-01 {
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 2;
+   grid-column-end: 2;
+   
+}
+#item-11 {
+margin-top:15px;
+   grid-row-start: 1;
+   grid-column-start: 2;
+
+   grid-row-end: 2;
+   grid-column-end: 4;
+   
+}
+#item-21 {
+   grid-row-start: 1;
+   grid-column-start: 4;
+
+   grid-row-end: 2;
+   grid-column-end: 6;
+   
+}
+button4{
+    position: absolute;
+    margin-top:20px;
+    left: 1180px;
+    color: #FFFFFF;
+    text-align: center;
+  width: 235px;
+  height: 49px;
+    border: 1px solid #FFFFFF;
+  border-radius: 7px;
+}
+button4:hover{
+    color: #C83936;
     background: #FFFFFF;
 }
