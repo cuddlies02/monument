@@ -565,6 +565,9 @@ margin: 50px auto;
 .indent11{
   margin-top: 20px; /*делаем отступ сверху*/
 }
+.indent113{
+  margin-top: 30px; /*делаем отступ сверху*/
+}
 .indent111{
   margin-top: -300px; /*делаем отступ сверху*/
 }
@@ -1047,4 +1050,42 @@ button4{
 button4:hover{
     color: #C83936;
     background: #FFFFFF;
+}
+.gridopisanie {
+    margin-top: 10px;
+   display: grid; 
+
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+   gap: 0px;
+   height: 100%;
+    width: 680px;
+   
+}
+  
+#m-0 {
+color: #726E8D;
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 2;
+   grid-column-end: 3;
+   
+}
+#m-1 {
+   grid-row-start: 1;
+   grid-column-start: 4;
+
+   grid-row-end: 2;
+   grid-column-end: 5;
+    text-align: right;
+   
+}
+.line_shadow3 { 
+  margin-top: -40px; /*делаем отступ сверху*/
+height: 10px;
+    width: 550px;
+border: none;
+border-top: 1px solid #726E8D;
 }
