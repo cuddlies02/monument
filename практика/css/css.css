@@ -90,15 +90,11 @@ h4{
     
 }
 h6{
-    color:#FFFFFF; 
     font:normal 18px Segoe_UI;
   left: 50%;
   margin: 0;
   top: 120%;
   width: 100%;
-}
-h6:hover {
-  color:#ff0000; /*меняем цвет ссылок*//*добавляем эффект при наведении*/
 }
 h5{
     font:normal 60px PlayfairDisplay;
@@ -188,13 +184,17 @@ ul {
   height: 20px; /*задаем высоту*/
 }
 a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+color:#000000;}
+
+ul a {
   text-decoration: none; /*убираем подчеркивание текста ссылок*/
   color:#000000; /*меняем цвет ссылок*/
   padding:0px 15px; /*добавляем отступ*/
   line-height:50px; /*ровняем меню по вертикали*/
   display: block; 
 }
-a:hover {
+ul a:hover {
     border-radius: 3px;
   background: #F4F4F4;
   color:#000000;
@@ -215,6 +215,7 @@ li > ul {
     /*Делаем скрытую часть видимой*/
     li:hover > ul {
         display:block; 
+        margin-top: 10px;
         width:250px;  /*Задаем ширину выпадающего меню*/      
     }
    li:hover > ul > li {
@@ -271,15 +272,14 @@ font:normal 60px PlayfairDisplay;
 
 
 .centered {
+    color: black;
   margin: 10px auto;
   width: 194px;
   height: 40px;
-  background: white;
+  background: #ffffff;
      padding: 4px;
   border-radius: 5px;
 }
-
-
 .angry-grid {
      margin-top: 450px;
   padding-left: 40px; /*убираем отступы*/
@@ -375,13 +375,25 @@ TD.leftcol {
 
 .centered1 {
   margin: 10px auto;
-  width: 240px;
-  height: 40px;
     background: #140E41;
-     padding: 0px;
   border-radius: 5px;
+    text-align: center;
+  width: 235px;
+  height: 49px;
+  border-radius: 7px;
 }
-
+.centered1 a{color: #FFFFFF}
+.centered1:hover {
+  margin: 10px auto;
+    background: #C83936;
+  border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+  width: 235px;
+  height: 49px;
+  border-radius: 7px;
+}
+.centered1 a:hover{color: #FFFFFF}
 .angry-grid1 {
    display: grid; 
 
@@ -522,6 +534,7 @@ margin: 50px auto;
    
 }
 .centered2{ 
+    color:#FFFFFF;
   width: 248px;
   height: 50px;
     text-align: center;
@@ -530,9 +543,14 @@ margin: 50px auto;
      padding: 4px;
   border-radius: 5px;
 }
-.centered2:hover {
-    color:#C83936;
+.centered2:hover{
     background: #FFFFFF;
+}
+.centered2 a{
+    color:#FFFFFF;
+}
+.centered2 a:hover {
+    color:#C83936;
 }
 .indent{
   padding-left: 50px; /*убираем отступы*/ 
@@ -703,6 +721,7 @@ margin-top:50px; /*делаем отступ сверху*/
 
 .dropbtn:hover, .dropbtn:focus {
   background-color: #F4F4F4;
+  border-radius: 5px;
 }
 
 #myInput {
@@ -714,6 +733,7 @@ margin-top:50px; /*делаем отступ сверху*/
   padding: 14px 20px 12px 45px;
   border: none;
   border-bottom: 1px solid #ddd;
+    
 }
 
 #myInput:focus {outline: 3px solid #f6f6f6;}
@@ -721,21 +741,29 @@ margin-top:50px; /*делаем отступ сверху*/
 .dropdown {
   position: relative;
   display: inline-block;
+      padding: 4px;
+  border-radius: 5px;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f6f6f6;
-  min-width: 200px;
+    margin-top: 5px;
+  background-color: #FFFFFF;
+  min-width: 248px;
+    min-height: 158px;
   overflow: auto;
-  border: 1px solid #ddd;
+  border: 1px solid #f6f6f6;
+  border-radius: 5px;
   z-index: 1;
+    
 }
+
 
 .dropdown-content a {
   color: black;
   padding: 10px 10px;
+     border-radius: 5px;
   text-decoration: none;
   display: block;}
 .dropdown a:hover {background-color: #f6f6f6;}
@@ -919,7 +947,7 @@ TD.leftcol3 {
 
 .show {display: block;}
 
-button{
+button2{
     color: #FFFFFF;
     text-align: center;
     margin-top: 3px; 
@@ -950,4 +978,18 @@ button1{
   height: 49px;
     border: 1px solid #FFFFFF;
   border-radius: 7px;
+}
+button3{
+    position: absolute;
+    top: 160px;
+    left: 250px;
+    color: #FFFFFF;
+    text-align: center;
+  width: 235px;
+  height: 49px;
+    border: 1px solid #FFFFFF;
+  border-radius: 7px;
+}
+button3:hover{
+    background: #FFFFFF;
 }
