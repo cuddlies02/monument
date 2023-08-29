@@ -786,6 +786,13 @@ margin-top:50px; /*делаем отступ сверху*/
      padding: 4px;
   border-radius: 5px;
 }
+.rectangle1110 {
+  margin: 20px;
+    padding-left: 0px; /*убираем отступы*/ 
+  width: 325px;
+  height: 392px;
+     padding: 4px;
+}
 .rectangle1111 {
   margin: 20px;
     padding-left: 0px; /*убираем отступы*/ 
